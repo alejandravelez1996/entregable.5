@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch";
 import { useEffect, useRef, useState } from "react";
 import PokeCard from "../components/PokedexPage/PokeCard";
 import SelectType from "../components/PokedexPage/SelectType";
-import "./styles/pokedexPage.css";
+import "./styles/PokedexPage.css";
 
 const PokedexPage = () => {
   const [inputValue, setInputValue] = useState("");
