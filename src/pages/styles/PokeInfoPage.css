@@ -1,0 +1,170 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://e0.pxfuel.com/wallpapers/126/42/desktop-wallpaper-great-ball-pokeball-pokemon-poke-ball-nintendo-minimalist-fondos-pokemon-fondo-de-pantalla-pokemon-pokemon-iniciales.jpg'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  background-position: center;
+  
+  }
+
+.container{
+    margin-left: 3em;
+    
+    margin-top: 2em;
+    margin-bottom: 3em;
+    border: 4px solid rgba(157, 157, 24, 0.776); 
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.293);
+   
+    
+}
+.img-center {
+    display: block;
+    margin: auto;
+  }
+
+.stats {
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    
+  }
+  .stats h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+  
+  .stats dl {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Divide en dos columnas */
+  gap: 20px; /* Espacio entre las columnas */
+  padding: 10px;
+  border-radius: 5px;
+  }
+  
+  .stat-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .stat-bar dt {
+    flex: 1;
+  }
+  
+  .stat-bar dd {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+    
+  }
+  
+  .stat-bar-fill {
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    
+    
+  }
+  dl {
+    display: flex;
+  flex-direction: column;
+  
+  padding: 10px;
+  border-radius: 5px;
+  }
+  dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    padding: 5px;
+  border-radius: 5px;
+  }
+  
+  dd {
+    margin: 0;
+    
+    padding: 5px;
+  border-radius: 5px;
+  }
+  .types-abilities-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    
+  }
+  
+  .types__nom,
+  .abilities {
+    margin-right: 20px; 
+    margin-left: 1em;
+    margin-right: 1em;
+    
+  }
+  .types {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    
+    
+  }
+  .value__types{
+    margin-right: 10px;
+    
+  }
+  .type-square {
+  padding: 10px;
+  border: 4px solid rgba(157, 157, 24, 0.776); 
+  border-radius: 5px;
+  margin-top: 0.5em;
+  
+  }
+  .type-square:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 1.5em #0008;
+  }
+  
+  .abilities-list {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    
+  }
+  
+  .ability-item {
+    padding: 10px;
+    border: 4px solid rgba(157, 157, 24, 0.776); 
+  border-radius: 5px;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  
+  }
+  .ability-item:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 1.5em #0008;
+  }
+  .stats__separator {
+    display: flex;
+    align-items: center; 
+    
+  }
+  .stats__title {
+    margin-right: 10px; /* Espaciado entre "Stats" y el hr, ajusta según sea necesario */
+    margin-left: 0.5em;
+  }
+  .separator {
+    flex: 1; 
+    
+    height: 1px; 
+    background-color: rgba(157, 157, 24, 0.776);  
+    margin: 0; 
+
+  }
+  
+  
+  

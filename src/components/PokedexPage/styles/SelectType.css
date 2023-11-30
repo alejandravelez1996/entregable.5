@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+
+.select {
+    font-size:20px;
+    
+}
+
+.selector {
+    
+    font-size:25px;
+    font-family: 'Vina Sans', sans-serif;
+    text-align: center;
+    width: 4.5em;
+    
+ 
+}

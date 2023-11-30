@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&family=Vina+Sans&display=swap');
+
+.pokedex__container{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-block-start: 6em;
+    
+}
+.pokedex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hi__trainer {
+font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: center;
+color: #FE1936;
+font-family: 'Permanent Marker', cursive;
+margin-top: 1em;
+}
+.poke__p{
+font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #302F2F;
+font-family: 'Permanent Marker', cursive;
+
+}
+.poke__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom:2em;
+    
+    
+}
+.poke__input{
+    padding: 0.4em 1em;
+    border-radius: 0.5em 0 0 0.5em;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 0.5em;
+}
+.poke__btn{
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: rgb(226, 17, 17);
+    padding: 0.4em;
+    border-radius: 0 0.5em 0.5em 0;
+    color: black;
+    font-weight: 500;
+    font-family: 'Vina Sans', sans-serif;
+    margin-top: 0.5em;
+}
+.poke__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+    width: 20%;
+}
